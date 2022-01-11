@@ -8,9 +8,10 @@ def sales_reports(log_file):
         line = line.rstrip()
         #slicing from position 0 to 3 not included
         day = line[0:3]
+        #print('day is', day)
         #finding day that's equal to tuesday and if so print line
-        if day == "Tue":
-            print(line)
+        if day == "Mon":
+            print('line is what', line)
 
 
 sales_reports(log_file)
